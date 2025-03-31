@@ -1,0 +1,3 @@
+﻿  Tense.cpp
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\Tense\Tense\Tense.cpp(23,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Tense.vcxproj -> C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\Tense\x64\Debug\Tense.exe
