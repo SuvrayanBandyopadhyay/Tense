@@ -1,5 +1,5 @@
 # Tense
-A fast, multi-threaded simple to use matrix library
+A fast, multi-threaded simple to use matrix library written in c++.
 
 # Usage
 ## Microsoft Visual Studio
