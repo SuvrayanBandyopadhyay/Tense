@@ -1,0 +1,4 @@
+﻿  basic_example.cpp
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\examples\basic_example\basic_example\basic_example.cpp(18,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\examples\basic_example\basic_example\basic_example.cpp(26,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  basic_example.vcxproj -> C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\examples\basic_example\x64\Debug\basic_example.exe

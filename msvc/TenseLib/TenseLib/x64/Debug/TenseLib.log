@@ -1,0 +1,13 @@
+﻿  Matrix.cpp
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(98,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(137,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(165,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(202,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(230,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(277,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(305,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(343,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\TenseLib\Matrix.cpp(371,13): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+  TenseLib.cpp
+  Generating Code...
+  TenseLib.vcxproj -> C:\Users\Suvra\OneDrive\Documents\Programming\C++\Tense\msvc\TenseLib\x64\Debug\TenseLib.lib

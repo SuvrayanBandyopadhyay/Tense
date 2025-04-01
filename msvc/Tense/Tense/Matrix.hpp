@@ -61,7 +61,5 @@ namespace Tense
 		Matrix operator %(Matrix b);
 		void operator%=(Matrix b);
 
-		//Transpose
-		Matrix transpose(Matrix b);
 	};
 }
