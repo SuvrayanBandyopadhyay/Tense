@@ -17,4 +17,4 @@ Time required while multiplying 2 matrices of sizes (500,400) and (400,300)
 
 <img width="470" alt="image" src="https://github.com/user-attachments/assets/64fb7178-c576-4027-ac3f-b83298f3365e" />
 
-This shows around **85%** reduction in time taken to compute the matrix product.
+Hence we observer around **85%** reduction in time taken to compute the matrix product.
