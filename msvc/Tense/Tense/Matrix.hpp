@@ -29,6 +29,9 @@ namespace Tense
 		//Matrix attributes
 		size_t rows();
 		size_t columns();
+		//display
+		void display();
+
 		std::vector<float>raw_data();
 		//Set and at functions
 
@@ -38,24 +41,25 @@ namespace Tense
 		float at(size_t r, size_t c);
 
 		//Flattened counterparts
-		void flat_set(size_t index, float val);
-		float flat_at(size_t index);
+		inline void flat_set(size_t index, float val);
+		inline float flat_at(size_t index);
 
 		//Unary operators
 		Matrix operator -();
+		
 		//Binary operators
 		Matrix operator +(Matrix b);
+		void operator +=(Matrix b);
 		Matrix operator -(Matrix b);
-		Matrix operator +=(Matrix b);
-		Matrix operator -=(Matrix b);
+		void operator -=(Matrix b);
 
 		//Matrix Multiplication
 		Matrix operator *(Matrix b);
-		Matrix operator *=(Matrix b);
+		void operator *=(Matrix b);
 		
 		//Hadamard product
 		Matrix operator %(Matrix b);
-		Matrix operator%=(Matrix b);
+		void operator%=(Matrix b);
 
 		//Transpose
 		Matrix transpose(Matrix b);

@@ -11,13 +11,13 @@ using namespace Tense;
 
 int main()
 {
-    Matrix A(5000, 5000, 3);
-
+    Matrix A(3, 2, {1,2,3,4,5,6});
+    Matrix B(3, 2, {1,2,3,4,5,6});
     
     double sample = 10;
 
 
-    for (int j = 1; j <= 32; j++)
+    for (int j = 1; j <= 16; j++)
     {
 
         Tense::num_threads = j;
@@ -25,12 +25,14 @@ int main()
         for (int i = 0; i < sample; i++)
         {
             auto start = chrono::high_resolution_clock::now();
-            Matrix C = -A;
+            Matrix C=A%B;
             auto end = chrono::high_resolution_clock::now();
             total += chrono::duration<double>(end - start).count();
 
         }
         cout << "Average time for "<<j<<" threads is " << (total / sample) << endl;
     }
+    (A % B).display();
+  
 }
 
